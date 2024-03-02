@@ -1189,6 +1189,7 @@ background-color: var(--main-color-background);
 padding-top: var(--main-padding-top);
 padding-bottom: var(--main-padding-bottom);
 position: relative;
+transition: var(--main-transition);
 }
 .pricing::before{
   content: "";
@@ -1219,6 +1220,7 @@ top: 200px;
   display: grid;
   gap: 30px;
   grid-template-columns:var(--main-grid-template-columns);
+transition: var(--main-transition);
 }
 .pricing .container .box{
   background-color: white;
